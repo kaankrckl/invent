@@ -1,0 +1,44 @@
+.cover{
+    text-align: center;
+}
+img{
+    width: 300px!important;
+    height: 400px!important;
+    border-radius: 5px;
+}
+
+.row{
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.col-r{
+    text-align: center;
+    margin: 0 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-image: radial-gradient(rgb(0,143,104), rgb(250,224,66)) 1;
+    width: 500px;
+}
+ul{
+    list-style: none;
+    
+    border-radius: 5px;
+}
+li{
+    margin: 5px;
+}
+
+.row p{
+    padding: 5px;
+}
+@media screen and (max-width:600px){
+    .row{
+        display: block;
+    }
+    .col-r{
+        margin: auto;
+    }
+} 
